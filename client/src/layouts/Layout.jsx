@@ -41,6 +41,7 @@ const Layout = () => {
                 <div className="flex-1 py-6 px-3 flex flex-col gap-1 overflow-y-auto">
                     <SidebarItem to="/dashboard" icon="📊" label="Dashboard" collapsed={collapsed} />
                     <SidebarItem to="/profile" icon="👤" label="My Profile" collapsed={collapsed} />
+                    <SidebarItem to="/present" icon="✅" label="Mark Present" collapsed={collapsed} />
                     <SidebarItem to="/attendance" icon="📅" label="Attendance" collapsed={collapsed} />
                     <SidebarItem to="/leaves" icon="🌴" label="Leaves" collapsed={collapsed} />
                     <SidebarItem to="/payroll" icon="💰" label="Payroll" collapsed={collapsed} />

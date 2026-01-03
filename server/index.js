@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/profile', require('./routes/profile'));
 app.use('/api/attendance', require('./routes/attendance'));
+app.use('/api/leaves', require('./routes/leave'));
 
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI;
