@@ -45,7 +45,6 @@ const Layout = () => {
                     <SidebarItem to="/attendance" icon="📅" label="Attendance" collapsed={collapsed} />
                     <SidebarItem to="/leaves" icon="🌴" label="Leaves" collapsed={collapsed} />
                     <SidebarItem to="/payroll" icon="💰" label="Payroll" collapsed={collapsed} />
-                    <SidebarItem to="/organization" icon="🏢" label="Organization" collapsed={collapsed} />
                 </div>
 
                 <div className="p-4 border-t border-gray-100">
