@@ -9,6 +9,7 @@ import Register from './pages/Register';
 import Attendance from './pages/Attendance';
 import Present from './pages/Present';
 import Leaves from './pages/Leaves';
+import Payroll from './pages/Payroll';
 
 const PrivateRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
@@ -33,7 +34,7 @@ function AppRoutes() {
         <Route path="/present" element={<Present />} />
         <Route path="/attendance" element={<Attendance />} />
         <Route path="/leaves" element={<Leaves />} />
-        <Route path="/payroll" element={<div className="p-4">Payroll Page (Coming Soon)</div>} />
+        <Route path="/payroll" element={<Payroll />} />
         <Route path="/organization" element={<div className="p-4">Organization Page (Coming Soon)</div>} />
       </Route>
     </Routes>
