@@ -15,7 +15,7 @@ const PrivateRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
   console.log('PrivateRoute check:', { isAuthenticated, loading });
 
-  if (loading) return <div>Loading...</div>; // Or a spinner
+  if (loading) return <div>Loading...</div>;
 
   return isAuthenticated ? children : <Navigate to="/login" replace />;
 };
