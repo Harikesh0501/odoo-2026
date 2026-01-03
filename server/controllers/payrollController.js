@@ -39,7 +39,7 @@ exports.getPayrollById = async (req, res) => {
 };
 
 // @route   POST api/payroll/generate
-// @desc    Generate payroll for a month (admin function, but for demo allowing user)
+// @desc    Generate payroll for a month
 // @access  Private
 exports.generatePayroll = async (req, res) => {
     try {
